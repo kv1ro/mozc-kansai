@@ -6,8 +6,8 @@ from google import genai
 from google.genai import types
 
 def main():
-    input_file = "word_pairs.tsv"
-    output_file = "output.tsv"
+    input_file = "data/word_pairs.tsv"
+    output_file = "data/output.tsv"
 
     if not os.path.exists(input_file):
         print(f"Error: {input_file} not found. Please run make_seed.py first.")
